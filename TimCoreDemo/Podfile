@@ -1,0 +1,29 @@
+source 'https://github.com/tpctt/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+#platform :ios, "8.0"
+
+
+workspace 'TimCoreDemo.xcworkspace'
+
+ 
+target:TimShareDemo  do
+project 'TimShareDemo/TimShareDemo.xcodeproj'   
+
+pod 'XAspect'
+
+#分享
+pod 'ShareSDK3','~> 3.5.2'
+pod 'MOBFoundation'
+pod 'ShareSDK3/ShareSDKUI'
+pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+pod 'ShareSDK3/ShareSDKExtension'
+
+pod ’TimCore/TimCore'
+
+
+end
+
+ 

@@ -1,0 +1,38 @@
+PODS:
+  - MOBFoundation (2.2.3)
+  - ShareSDK3 (3.5.2):
+    - ShareSDK3/ShareSDK (= 3.5.2)
+  - ShareSDK3/ShareSDK (3.5.2)
+  - ShareSDK3/ShareSDKExtension (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.5.2)
+  - ShareSDK3/ShareSDKUI (3.5.2)
+  - TimCore/TimCore (1.0.7)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+
+DEPENDENCIES:
+  - MOBFoundation
+  - ShareSDK3 (~> 3.5.2)
+  - ShareSDK3/ShareSDKExtension
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKUI
+  - TimCore/TimCore
+  - XAspect
+
+SPEC CHECKSUMS:
+  MOBFoundation: 2bc5cd7011a2db75cf2b3ceacb7f4227eec88f3e
+  ShareSDK3: '08ed714e2bbdcd97ab60f58cb398227341dfc20a'
+  TimCore: 94dfeb78db955dade90528e25991437dffad2eed
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+
+PODFILE CHECKSUM: 14ed39e31e09b3a9bb4b748a32174fb664a09868
+
+COCOAPODS: 1.1.1
