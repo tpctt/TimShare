@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "32FC504C39D353AE573372E1D2E989DCF17E0C8B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "690C34FCF660E94567FF7293A7AAAFF123560B10" : 9223372036854775807,
+    "32FC504C39D353AE573372E1D2E989DCF17E0C8B" : 9223372036854775807,
+    "13416D6A5840DCAC5F161FDF4D9E127578ABD6D5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "615D867E-8614-48EE-965A-500890EBFFCD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "690C34FCF660E94567FF7293A7AAAFF123560B10" : "..\/taoqianbao-iOS-code",
+    "32FC504C39D353AE573372E1D2E989DCF17E0C8B" : "TimShare\/",
+    "13416D6A5840DCAC5F161FDF4D9E127578ABD6D5" : "TimCore\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TimCoreDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TimCoreDemo\/TimCoreDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/timRabbit\/TimCore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13416D6A5840DCAC5F161FDF4D9E127578ABD6D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tpctt\/TimShare.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32FC504C39D353AE573372E1D2E989DCF17E0C8B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.254:3000\/gogs\/taoqian123_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "690C34FCF660E94567FF7293A7AAAFF123560B10"
+    }
+  ]
+}

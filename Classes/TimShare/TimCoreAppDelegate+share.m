@@ -57,9 +57,12 @@
             return;
         }
         NSLog(@"成功加载友盟分享");
+        NSLog(@"shareAppKey:%@,",JiaShareConfigManagerInstance.shareAppKey);
 
         if(JiaShareConfigManagerInstance.shareAppKey)
         {
+            
+            
             {
                 [ShareSDK registerApp:JiaShareConfigManagerInstance.shareAppKey
                  
@@ -226,6 +229,25 @@
                                     emoticonData:nil
                                             type: SSDKContentTypeAuto
                               forPlatformSubType:SSDKPlatformSubTypeWechatTimeline];
+        
+        ///qq空间只分享图片有问题
+        if(content.length ==0 && title.length == 0){
+            content = @"分享图片";
+            
+        }
+        
+        [shareParams SSDKSetupWeChatParamsByText:content
+                                           title:content
+                                             url:nil
+                                      thumbImage:image
+                                           image:image
+                                    musicFileURL:nil
+                                         extInfo:nil
+                                        fileData:nil
+                                    emoticonData:nil
+                                            type: SSDKContentTypeAuto
+                              forPlatformSubType:SSDKPlatformSubTypeQZone];
+        
         
         
         if(activePlatforms){

@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222BD9B11DD320AE002C8F24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 222BD9B01DD320AE002C8F24 /* main.m */; };
+		222BD9B41DD320AE002C8F24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222BD9B31DD320AE002C8F24 /* AppDelegate.m */; };
+		222BD9B71DD320AE002C8F24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222BD9B61DD320AE002C8F24 /* ViewController.m */; };
+		222BD9BA1DD320AE002C8F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222BD9B81DD320AE002C8F24 /* Main.storyboard */; };
+		222BD9BC1DD320AE002C8F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222BD9BB1DD320AE002C8F24 /* Assets.xcassets */; };
+		222BD9BF1DD320AE002C8F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222BD9BD1DD320AE002C8F24 /* LaunchScreen.storyboard */; };
+		22C85DFA1DD9456B00CFEFE3 /* Info-DEMO.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22C85DEF1DD9456B00CFEFE3 /* Info-DEMO.plist */; };
+		22C85DFB1DD9456B00CFEFE3 /* TimCoreAppDelegate+share.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C85DF11DD9456B00CFEFE3 /* TimCoreAppDelegate+share.m */; };
+		22C85DFC1DD9456B00CFEFE3 /* TimShareConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C85DF41DD9456B00CFEFE3 /* TimShareConfigManager.m */; };
+		22C85DFD1DD9456B00CFEFE3 /* XAspect-ShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C85DF51DD9456B00CFEFE3 /* XAspect-ShareAppDelegate.m */; };
+		E6CB8BB522ABDD4049A07E23 /* libPods-TimShareDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF5888AFC711DF76DC30CEA /* libPods-TimShareDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CF5888AFC711DF76DC30CEA /* libPods-TimShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222BD9AC1DD320AE002C8F24 /* TimShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222BD9B01DD320AE002C8F24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		222BD9B21DD320AE002C8F24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		222BD9B31DD320AE002C8F24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		222BD9B51DD320AE002C8F24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		222BD9B61DD320AE002C8F24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		222BD9B91DD320AE002C8F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222BD9BB1DD320AE002C8F24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222BD9BE1DD320AE002C8F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222BD9C01DD320AE002C8F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C85DEF1DD9456B00CFEFE3 /* Info-DEMO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-DEMO.plist"; sourceTree = "<group>"; };
+		22C85DF01DD9456B00CFEFE3 /* TimCoreAppDelegate+share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimCoreAppDelegate+share.h"; sourceTree = "<group>"; };
+		22C85DF11DD9456B00CFEFE3 /* TimCoreAppDelegate+share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TimCoreAppDelegate+share.m"; sourceTree = "<group>"; };
+		22C85DF21DD9456B00CFEFE3 /* TimShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimShare.h; sourceTree = "<group>"; };
+		22C85DF31DD9456B00CFEFE3 /* TimShareConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimShareConfigManager.h; sourceTree = "<group>"; };
+		22C85DF41DD9456B00CFEFE3 /* TimShareConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimShareConfigManager.m; sourceTree = "<group>"; };
+		22C85DF51DD9456B00CFEFE3 /* XAspect-ShareAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAspect-ShareAppDelegate.m"; sourceTree = "<group>"; };
+		24469B386240DC53CA34F36D /* Pods-TimShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimShareDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TimShareDemo/Pods-TimShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5549FAE4999660B32BA02837 /* Pods-TimShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimShareDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TimShareDemo/Pods-TimShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222BD9A91DD320AE002C8F24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CB8BB522ABDD4049A07E23 /* libPods-TimShareDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222BD9A31DD320AE002C8F24 = {
+			isa = PBXGroup;
+			children = (
+				22C85DE31DD9456B00CFEFE3 /* Classes */,
+				222BD9AE1DD320AE002C8F24 /* TimShareDemo */,
+				222BD9AD1DD320AE002C8F24 /* Products */,
+				794AF1359C793509855D7CBE /* Pods */,
+				AB62C1D9B6EC508C13621147 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		222BD9AD1DD320AE002C8F24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222BD9AC1DD320AE002C8F24 /* TimShareDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222BD9AE1DD320AE002C8F24 /* TimShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				222BD9B21DD320AE002C8F24 /* AppDelegate.h */,
+				222BD9B31DD320AE002C8F24 /* AppDelegate.m */,
+				222BD9B51DD320AE002C8F24 /* ViewController.h */,
+				222BD9B61DD320AE002C8F24 /* ViewController.m */,
+				222BD9B81DD320AE002C8F24 /* Main.storyboard */,
+				222BD9BB1DD320AE002C8F24 /* Assets.xcassets */,
+				222BD9BD1DD320AE002C8F24 /* LaunchScreen.storyboard */,
+				222BD9C01DD320AE002C8F24 /* Info.plist */,
+				222BD9AF1DD320AE002C8F24 /* Supporting Files */,
+			);
+			path = TimShareDemo;
+			sourceTree = "<group>";
+		};
+		222BD9AF1DD320AE002C8F24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				222BD9B01DD320AE002C8F24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22C85DE31DD9456B00CFEFE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22C85DEE1DD9456B00CFEFE3 /* TimShare */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		22C85DEE1DD9456B00CFEFE3 /* TimShare */ = {
+			isa = PBXGroup;
+			children = (
+				22C85DEF1DD9456B00CFEFE3 /* Info-DEMO.plist */,
+				22C85DF01DD9456B00CFEFE3 /* TimCoreAppDelegate+share.h */,
+				22C85DF11DD9456B00CFEFE3 /* TimCoreAppDelegate+share.m */,
+				22C85DF21DD9456B00CFEFE3 /* TimShare.h */,
+				22C85DF31DD9456B00CFEFE3 /* TimShareConfigManager.h */,
+				22C85DF41DD9456B00CFEFE3 /* TimShareConfigManager.m */,
+				22C85DF51DD9456B00CFEFE3 /* XAspect-ShareAppDelegate.m */,
+			);
+			path = TimShare;
+			sourceTree = "<group>";
+		};
+		794AF1359C793509855D7CBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5549FAE4999660B32BA02837 /* Pods-TimShareDemo.debug.xcconfig */,
+				24469B386240DC53CA34F36D /* Pods-TimShareDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB62C1D9B6EC508C13621147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF5888AFC711DF76DC30CEA /* libPods-TimShareDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222BD9AB1DD320AE002C8F24 /* TimShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222BD9C31DD320AE002C8F24 /* Build configuration list for PBXNativeTarget "TimShareDemo" */;
+			buildPhases = (
+				466FA76FB6E7B5E7E2660010 /* [CP] Check Pods Manifest.lock */,
+				222BD9A81DD320AE002C8F24 /* Sources */,
+				222BD9A91DD320AE002C8F24 /* Frameworks */,
+				222BD9AA1DD320AE002C8F24 /* Resources */,
+				E46EF47FB4A79B9859FFAE85 /* [CP] Embed Pods Frameworks */,
+				6E66470D9581EB1E471865B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimShareDemo;
+			productName = TimShareDemo;
+			productReference = 222BD9AC1DD320AE002C8F24 /* TimShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222BD9A41DD320AE002C8F24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = tim;
+				TargetAttributes = {
+					222BD9AB1DD320AE002C8F24 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGZ32BA6KS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 222BD9A71DD320AE002C8F24 /* Build configuration list for PBXProject "TimShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222BD9A31DD320AE002C8F24;
+			productRefGroup = 222BD9AD1DD320AE002C8F24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222BD9AB1DD320AE002C8F24 /* TimShareDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222BD9AA1DD320AE002C8F24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222BD9BF1DD320AE002C8F24 /* LaunchScreen.storyboard in Resources */,
+				222BD9BC1DD320AE002C8F24 /* Assets.xcassets in Resources */,
+				222BD9BA1DD320AE002C8F24 /* Main.storyboard in Resources */,
+				22C85DFA1DD9456B00CFEFE3 /* Info-DEMO.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		466FA76FB6E7B5E7E2660010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E66470D9581EB1E471865B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TimShareDemo/Pods-TimShareDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46EF47FB4A79B9859FFAE85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TimShareDemo/Pods-TimShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222BD9A81DD320AE002C8F24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C85DFC1DD9456B00CFEFE3 /* TimShareConfigManager.m in Sources */,
+				222BD9B71DD320AE002C8F24 /* ViewController.m in Sources */,
+				22C85DFB1DD9456B00CFEFE3 /* TimCoreAppDelegate+share.m in Sources */,
+				222BD9B41DD320AE002C8F24 /* AppDelegate.m in Sources */,
+				222BD9B11DD320AE002C8F24 /* main.m in Sources */,
+				22C85DFD1DD9456B00CFEFE3 /* XAspect-ShareAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		222BD9B81DD320AE002C8F24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222BD9B91DD320AE002C8F24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		222BD9BD1DD320AE002C8F24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222BD9BE1DD320AE002C8F24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222BD9C11DD320AE002C8F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		222BD9C21DD320AE002C8F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222BD9C41DD320AE002C8F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5549FAE4999660B32BA02837 /* Pods-TimShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGZ32BA6KS;
+				INFOPLIST_FILE = TimShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timrabbit.shareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		222BD9C51DD320AE002C8F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24469B386240DC53CA34F36D /* Pods-TimShareDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGZ32BA6KS;
+				INFOPLIST_FILE = TimShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timrabbit.shareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222BD9A71DD320AE002C8F24 /* Build configuration list for PBXProject "TimShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222BD9C11DD320AE002C8F24 /* Debug */,
+				222BD9C21DD320AE002C8F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222BD9C31DD320AE002C8F24 /* Build configuration list for PBXNativeTarget "TimShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222BD9C41DD320AE002C8F24 /* Debug */,
+				222BD9C51DD320AE002C8F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222BD9A41DD320AE002C8F24 /* Project object */;
+}
