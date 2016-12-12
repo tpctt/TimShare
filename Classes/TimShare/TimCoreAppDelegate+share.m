@@ -154,7 +154,7 @@
 
 
 
--(void)shareInfo:(NSString *)title content:(NSString *)content image:(id)image  url:(NSString *)url actionSheet:(UIView *)actionSheet onShareStateChanged:(ShareResult)shareStateChangedHandler
+-(void)shareInfo:(NSString *)title content:(NSString *)content image:(id)image  url:(NSString *)url actionSheet:(UIView *)actionSheet onShareStateChanged:(ShareResult)shareStateChangedHandler activePlatforms:(NSArray*)activePlatforms
 {
 
   
@@ -228,8 +228,12 @@
                               forPlatformSubType:SSDKPlatformSubTypeWechatTimeline];
         
         
+        if(activePlatforms){
         
-        NSMutableArray *activePlatforms = @[@(SSDKPlatformTypeSinaWeibo) ,@(SSDKPlatformTypeQQ) , @(SSDKPlatformSubTypeWechatSession) , @(SSDKPlatformSubTypeWechatTimeline)].mutableCopy;
+        }else{
+            activePlatforms = @[@(SSDKPlatformTypeSinaWeibo) ,@(SSDKPlatformTypeQQ) , @(SSDKPlatformSubTypeWechatSession) , @(SSDKPlatformSubTypeWechatTimeline)].mutableCopy;
+
+        }
         
         //添加一个自定义的平台（非必要）
 //        SSUIShareActionSheetCustomItem *item = [SSUIShareActionSheetCustomItem

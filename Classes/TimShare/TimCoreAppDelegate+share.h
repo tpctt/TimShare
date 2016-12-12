@@ -10,6 +10,7 @@
 #import <objc/runtime.h>
 
 #import "TimCoreAppDelegate.h"
+#import <ShareSDK/SSDKTypeDefine.h>
 
 
 
@@ -19,7 +20,7 @@ typedef void(^ShareResult)(BOOL sucess,NSString *msg);
 
 -(void)initSharedSDK;
 
--(void)shareInfo:(NSString *)title content:(NSString *)content image:(id)image  url:(NSString *)url actionSheet:(UIView *)actionSheet onShareStateChanged:(ShareResult)shareStateChangedHandler;
+-(void)shareInfo:(NSString *)title content:(NSString *)content image:(id)image  url:(NSString *)url actionSheet:(UIView *)actionSheet onShareStateChanged:(ShareResult)shareStateChangedHandler activePlatforms:(NSArray*)activePlatforms;
 
     
 @end
