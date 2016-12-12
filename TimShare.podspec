@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TimShare'
-  s.version          = "1.0.7"
+  s.version          = "1.0.8"
   s.summary          = 'TimShare 基于 timcore 做的 share 模块,方便分享'
   s.license          = 'MIT'
   s.author           = { "tim" => "491590253@qq.com" }
