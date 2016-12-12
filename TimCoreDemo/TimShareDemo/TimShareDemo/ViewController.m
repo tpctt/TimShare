@@ -56,7 +56,7 @@
 //    } activePlatforms:nil];
 //
     
-    [app shareInfo:nil content:nil image:nil url:nil actionSheet:sender onShareStateChanged:^(BOOL sucess, NSString *msg) {
+    [app shareInfo:@"标题"  content:@"内容" image:nil url:@"" actionSheet:sender onShareStateChanged:^(BOOL sucess, NSString *msg) {
         
         NSLog(@"%@",msg);
     } activePlatforms:nil];

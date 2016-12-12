@@ -391,7 +391,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.timrabbit.shareDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inwhoop.chuanchuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -406,7 +406,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.timrabbit.shareDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inwhoop.chuanchuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

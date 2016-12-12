@@ -231,22 +231,35 @@
                               forPlatformSubType:SSDKPlatformSubTypeWechatTimeline];
         
         ///qq空间只分享图片有问题
-        if(content.length ==0 && title.length == 0){
+        if(content.length ==0 && title.length == 0 && url.length == 0 ){
             content = @"分享图片";
-            
+            [shareParams SSDKSetupWeChatParamsByText:content
+                                               title:content
+                                                 url:nil
+                                          thumbImage:image
+                                               image:image
+                                        musicFileURL:nil
+                                             extInfo:nil
+                                            fileData:nil
+                                        emoticonData:nil
+                                                type: SSDKContentTypeImage
+                                  forPlatformSubType:SSDKPlatformSubTypeQZone];
+
+        }else{
+            [shareParams SSDKSetupWeChatParamsByText:content
+                                               title:content
+                                                 url:nil
+                                          thumbImage:image
+                                               image:image
+                                        musicFileURL:nil
+                                             extInfo:nil
+                                            fileData:nil
+                                        emoticonData:nil
+                                                type: SSDKContentTypeAuto
+                                  forPlatformSubType:SSDKPlatformSubTypeQZone];
+
         }
         
-        [shareParams SSDKSetupWeChatParamsByText:content
-                                           title:content
-                                             url:nil
-                                      thumbImage:image
-                                           image:image
-                                    musicFileURL:nil
-                                         extInfo:nil
-                                        fileData:nil
-                                    emoticonData:nil
-                                            type: SSDKContentTypeAuto
-                              forPlatformSubType:SSDKPlatformSubTypeQZone];
         
         
         
