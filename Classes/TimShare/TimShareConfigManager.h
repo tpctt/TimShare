@@ -44,7 +44,8 @@ typedef NS_ENUM(NSInteger,JiaSocialPlatformType)
 
 
 //友盟分享配置 友盟key,是否开启SDK调试
-@property (strong, nonatomic) NSString *shareAppKey;
+    @property (strong, nonatomic) NSString *shareAppKey;
+    @property (strong, nonatomic) NSString *shareAppSecret;
 @property (nonatomic,getter=isLogEnabled) BOOL shareLogEnabled;
 
 //其它配置 分享成功跟失败的提示语

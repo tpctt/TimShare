@@ -19,11 +19,13 @@
     [super load];
     
     {
-        [TimShareConfigManager sharedInstance].shareAppKey = @"29b9b7806030";
-        [[TimShareConfigManager sharedInstance] setPlaform:JiaSocialPlatConfigType_Sina appKey:@"2344109907" appSecret:@"978d37143225b9d679643b85aadb73f2" redirectURL:@"https://api.weibo.com/oauth2/default.html"];
+        [TimShareConfigManager sharedInstance].shareAppKey = @"198497d4e5fc4";
+        [TimShareConfigManager sharedInstance].shareAppSecret = @"e179c48d842051d958823aedaf26de27";
         
-        [[TimShareConfigManager sharedInstance] setPlaform:JiaSocialPlatConfigType_Wechat appKey:@"wx23c71c336f2c189e" appSecret:@"ca05dba4a0cfdd8f84669ec77ebfefa7" redirectURL:nil];
-        [[TimShareConfigManager sharedInstance] setPlaform:JiaSocialPlatConfigType_Tencent appKey:@"1102368176" appSecret:@"zpN6jztX2egcAOSC" redirectURL:nil];
+        [[TimShareConfigManager sharedInstance] setPlaform:JiaSocialPlatConfigType_Sina appKey:@"868207552" appSecret:@"0557d59017db3b4dd92a1ae7f4c637dd" redirectURL:@"https://api.weibo.com/oauth2/default.html"];
+        
+        [[TimShareConfigManager sharedInstance] setPlaform:JiaSocialPlatConfigType_Wechat appKey:@"wx9b0b6b8fd7bb4b98" appSecret:@"f2bf596c1feb75d044aff010337692f9" redirectURL:nil];
+        [[TimShareConfigManager sharedInstance] setPlaform:JiaSocialPlatConfigType_Tencent appKey:@"1105767421" appSecret:@"dUjqPaJAV9pBWJeZ" redirectURL:nil];
         
         
     }

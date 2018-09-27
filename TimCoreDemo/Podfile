@@ -13,15 +13,16 @@ project 'TimShareDemo/TimShareDemo.xcodeproj'
 pod 'XAspect'
 
 #分享
-pod 'ShareSDK3','~> 3.5.2'
+#pod 'ShareSDK3','~> 3.5.2'
+pod 'ShareSDK3'#,:git => ‘https://github.com/MobClub/ShareSDK-for-iOS-Spec.git'
 pod 'MOBFoundation'
-pod 'ShareSDK3/ShareSDKUI'
-pod 'ShareSDK3/ShareSDKPlatforms/QQ'
-pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
-pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
-pod 'ShareSDK3/ShareSDKExtension'
+pod 'ShareSDK3/ShareSDKUI'#,:git => ‘https://github.com/MobClub/ShareSDK-for-iOS-Spec.git'
+pod 'ShareSDK3/ShareSDKPlatforms/QQ'#,:git => ‘https://github.com/MobClub/ShareSDK-for-iOS-Spec.git'
+pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'#,:git => ‘https://github.com/MobClub/ShareSDK-for-iOS-Spec.git'
+pod 'ShareSDK3/ShareSDKPlatforms/WeChat'#,:git => ‘https://github.com/MobClub/ShareSDK-for-iOS-Spec.git'
+pod 'ShareSDK3/ShareSDKExtension'#,:git => ‘https://github.com/MobClub/ShareSDK-for-iOS-Spec.git'
 
-pod ’TimCore/TimCore'
+pod 'TimCore/TimCore'
 
 
 end

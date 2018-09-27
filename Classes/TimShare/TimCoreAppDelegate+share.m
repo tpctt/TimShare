@@ -64,9 +64,10 @@
             
             
             {
-                [ShareSDK registerApp:JiaShareConfigManagerInstance.shareAppKey
-                 
-                      activePlatforms:@[
+                [MobSDK registerAppKey:JiaShareConfigManagerInstance.shareAppKey appSecret:JiaShareConfigManagerInstance.shareAppSecret];
+//            registerApp:JiaShareConfigManagerInstance.shareAppKey
+                
+                [ShareSDK registerActivePlatforms:@[
                                         @(SSDKPlatformTypeSinaWeibo),
                                         //                            @(SSDKPlatformTypeSMS),
                                         @(SSDKPlatformTypeWechat),
@@ -210,12 +211,15 @@
         
         [shareParams SSDKSetupSinaWeiboShareParamsByText:[content stringByAppendingString:url?:@""]
                                                    title:title
-                                                   image:weiboImage
+                                                  images:weiboImage
+                                                   video:nil
                                                      url:[NSURL URLWithString:url]
                                                 latitude:0
                                                longitude:0
                                                 objectID:nil
-                                                    type:  SSDKContentTypeImage  ];
+                                          isShareToStory:NO
+                                                    type:SSDKContentTypeImage];
+        
         
         
         [shareParams SSDKSetupWeChatParamsByText:content
@@ -392,22 +396,23 @@
 //}
 //
 
--(void) onResp:(BaseResp*)resp
-{
-    NSString *strMsg = [NSString stringWithFormat:@"errcode:%d", resp.errCode];
-    if([resp isKindOfClass:[PayResp class]]){
-        //支付返回结果
-        switch (resp.errCode) {
-            case WXSuccess:
-                strMsg = @"支付结果：成功！";
-                //                NSLog(@"支付成功－PaySuccess，retcode = %d", resp.errCode);
-                break;
-            default:
-                strMsg = [NSString stringWithFormat:@"支付结果：失败！retcode = %d, retstr = %@", resp.errCode,resp.errStr];
-                //                NSLog(@"错误，retcode = %d, retstr = %@", resp.errCode,resp.errStr);
-                break;
-        }
-        
-    }  
-}
+    //
+//-(void) onResp:(BaseResp*)resp
+//{
+//    NSString *strMsg = [NSString stringWithFormat:@"errcode:%d", resp.errCode];
+//    if([resp isKindOfClass:[PayResp class]]){
+//        //支付返回结果
+//        switch (resp.errCode) {
+//            case WXSuccess:
+//                strMsg = @"支付结果：成功！";
+//                //                NSLog(@"支付成功－PaySuccess，retcode = %d", resp.errCode);
+//                break;
+//            default:
+//                strMsg = [NSString stringWithFormat:@"支付结果：失败！retcode = %d, retstr = %@", resp.errCode,resp.errStr];
+//                //                NSLog(@"错误，retcode = %d, retstr = %@", resp.errCode,resp.errStr);
+//                break;
+//        }
+//
+//    }
+//}
 @end

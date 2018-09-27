@@ -19,14 +19,34 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string></string>
+			<string>qq</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wx23c71c336f2c189e</string>
-				<string>wb2344109907</string>
-				<string>taoqianbao</string>
-				<string>QQ41B4CDB0</string>
+				<string>QQ41E8ABFD</string>
+				<string>tencent1105767421</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>wechat</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wx9b0b6b8fd7bb4b98</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>weibo</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wb868207552</string>
 			</array>
 		</dict>
 	</array>

@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01737CEDF6A95C8C4B5BBC46B09B4D03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E928694E29501C98592C74D3C927AB /* SystemConfiguration.framework */; };
+		0377B2B9569867EA681FE62DAA1D89DD /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = D70B04F966A0FE317B056E82DD456AF6 /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A1E9E8E1A3E04B1079FB776091AB2B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755270315EE90B27E4525E531F0F8709 /* CoreTelephony.framework */; };
+		3010739A78056A417553FEB73F76E660 /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D9B1ADC22897BD6B49428B278C56CF /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3848EEC1EB1C3D481C6992E1615C4A9A /* TimCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D270EF6C4C53B82D2D6B9E44BA33B7 /* TimCore-dummy.m */; };
+		39B5B44E90AEAC40B5F069895DC15F44 /* TimCoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40685780348FA21CF9B65917EA62F364 /* TimCoreAppDelegate.m */; };
+		42572B110E097AF50C6EF8A89A679486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD562435F7E2D8843722EF203586F7F /* UIKit.framework */; };
+		45CC1F716CAA9DF3E2AC991FDF78CB5E /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB2E3873D9F283E4C02F9A2A451B11 /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49459EB017A29A22F6C4C6B5A038F33E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0860F9471E377C789BE08E1EE83E10A2 /* Foundation.framework */; };
+		68D8DFBDDDBB73F6A643598C89C15C46 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE8CD94EF44F29E2054681C1E48A352 /* XACrystallization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1DD7010594C69E0467F16B9B8382E0 /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C139B382C6C5FFC37F4EFCB17469907 /* XAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73AE2CF7D4DBE3BEDDC01F4260230B6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0860F9471E377C789BE08E1EE83E10A2 /* Foundation.framework */; };
+		856DEFBF545C01EDF2DCAE6B48D9C8A0 /* TimCoreAppDelegate+CSSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCA6032897108A972A6EA6EBAC2AB7B /* TimCoreAppDelegate+CSSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93808634DA066C8AABAD9F8D056284BF /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E78838B2638D035FDD12CBA35EC277B /* XACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B964B75C7DEAB956C1DAB0A1170FBB /* TimCoreAppDelegate+CSSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 276AB7E08B0CD005596E830040BEB5EC /* TimCoreAppDelegate+CSSearch.m */; };
+		965356A989C709FB75B740842386743C /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47F920AD3F79363361568C9303275319 /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		99C441B5215178AF78740D3D4B84D571 /* XAspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F405692ECA4D9E122485E2518B1C162 /* XAspect-dummy.m */; };
+		A282607C940413D6C8E21F938E3799A9 /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDA0DFB7BABC68BD01A8BA8E66B8979 /* XADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63A46AACDF63533ED5B3352E9028101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0860F9471E377C789BE08E1EE83E10A2 /* Foundation.framework */; };
+		ABDCFE75EA28E49462A280D5E3B992E8 /* TimCoreAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 350D29995730DBFF87699B64BBE75FD5 /* TimCoreAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9F9D7205C868477A014E5B19FFA95B6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C474EC2C2C7E97FC243012C4DB6CBD75 /* JavaScriptCore.framework */; };
+		C1DA474973F52021B41AE23E2682BD06 /* Pods-TimShareDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 194B72727444A4A101D99FB3A1125CF7 /* Pods-TimShareDemo-dummy.m */; };
+		CA295B817A49F10A8C2D67F9C79497B8 /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D2C409BB362E5F0004CB7895798DFB /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8243BC2749DDE058A58A3D5F7C1C9B /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 845B77A712A76AF6F1668A43344D6DEC /* XAFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E597127671F36DDAB57BD22C610F2264 /* TimSearchItemForObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FDC398FFBFAFBD7932205C2F9C60E55 /* TimSearchItemForObjectProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F180B8EF6767720DDBD8E1829294A1BB /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E07A606D867E7E60DBBFB84C4B8CA5C /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30DBD3C2093FF99C36E56D2BC777D78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A35CFE65B365D9DDC0FFA51446D556;
+			remoteInfo = TimCore;
+		};
+		F014E944ECD7AD507B90A57065105A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2370E61383A657885E85DF186E1520;
+			remoteInfo = XAspect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D9B1ADC22897BD6B49428B278C56CF /* XAWeaveHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAWeaveHandler.h; path = XAspect/Core/XAWeaveHandler.h; sourceTree = "<group>"; };
+		0746FE39999BC36C8C8F9646391A49D7 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDKUI.bundle; path = SDK/ShareSDK/Support/Optional/ShareSDKUI.bundle; sourceTree = "<group>"; };
+		0860F9471E377C789BE08E1EE83E10A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		09EE8ED3BFDB58DC8E684B3AF501F157 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDK/ShareSDK/Support/PlatformSDK/WeChatSDK/WXApi.h; sourceTree = "<group>"; };
+		0E07A606D867E7E60DBBFB84C4B8CA5C /* XACExtensions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = XACExtensions.c; path = XAspect/Core/XACExtensions.c; sourceTree = "<group>"; };
+		193F783027624E4051023490924A921E /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
+		194B72727444A4A101D99FB3A1125CF7 /* Pods-TimShareDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimShareDemo-dummy.m"; sourceTree = "<group>"; };
+		1AE8CD94EF44F29E2054681C1E48A352 /* XACrystallization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACrystallization.h; path = XAspect/Core/XACrystallization.h; sourceTree = "<group>"; };
+		1AF5F3AFB6794FCC137906A598C56BCD /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		1E676A0DCBB072456CDD13B57C5B363C /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = SDK/ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		23D25DD16EB9AB684E5330C71242196E /* libTimCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTimCore.a; path = libTimCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		276AB7E08B0CD005596E830040BEB5EC /* TimCoreAppDelegate+CSSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TimCoreAppDelegate+CSSearch.m"; path = "Classes/TimCore/TimCoreAppDelegate+CSSearch.m"; sourceTree = "<group>"; };
+		29AFD2972FFCCF2DEAF3A09DB7575EB6 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		2C139B382C6C5FFC37F4EFCB17469907 /* XAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAspect.h; path = XAspect/XAspect.h; sourceTree = "<group>"; };
+		30260CCF24E81C76B7C12EC38DC86220 /* Pods-TimShareDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimShareDemo-resources.sh"; sourceTree = "<group>"; };
+		350D29995730DBFF87699B64BBE75FD5 /* TimCoreAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimCoreAppDelegate.h; path = Classes/TimCore/TimCoreAppDelegate.h; sourceTree = "<group>"; };
+		40685780348FA21CF9B65917EA62F364 /* TimCoreAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimCoreAppDelegate.m; path = Classes/TimCore/TimCoreAppDelegate.m; sourceTree = "<group>"; };
+		47F2176AF28CC9625F46123D43E383CC /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = SDK/ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
+		47F920AD3F79363361568C9303275319 /* XAWeaveHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XAWeaveHandler.cpp; path = XAspect/Core/XAWeaveHandler.cpp; sourceTree = "<group>"; };
+		4AAB2E3873D9F283E4C02F9A2A451B11 /* XACrystallization.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XACrystallization.cpp; path = XAspect/Core/XACrystallization.cpp; sourceTree = "<group>"; };
+		4AD562435F7E2D8843722EF203586F7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4DCA6032897108A972A6EA6EBAC2AB7B /* TimCoreAppDelegate+CSSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TimCoreAppDelegate+CSSearch.h"; path = "Classes/TimCore/TimCoreAppDelegate+CSSearch.h"; sourceTree = "<group>"; };
+		4E2759BCB90B5CD88552C6D7C2661FDF /* Pods-TimShareDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimShareDemo-frameworks.sh"; sourceTree = "<group>"; };
+		59A5E425E0A08713D929058F33B9C7B1 /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QQConnector.framework; path = SDK/ShareSDK/Support/PlatformConnector/QQConnector.framework; sourceTree = "<group>"; };
+		5C17763299ACB2318D288CC34A219DD3 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDK/ShareSDK/Support/PlatformSDK/WeChatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		6BC76972F7AD76AD03C6E9DB7E019CE8 /* Pods-TimShareDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimShareDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CAF3D619FED8BB64A518E1D0AE0A4D3 /* XAspect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XAspect.xcconfig; sourceTree = "<group>"; };
+		6FDC398FFBFAFBD7932205C2F9C60E55 /* TimSearchItemForObjectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimSearchItemForObjectProtocol.h; path = Classes/TimProtocol/TimSearchItemForObjectProtocol.h; sourceTree = "<group>"; };
+		755270315EE90B27E4525E531F0F8709 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		76D270EF6C4C53B82D2D6B9E44BA33B7 /* TimCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimCore-dummy.m"; sourceTree = "<group>"; };
+		7E78838B2638D035FDD12CBA35EC277B /* XACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACExtensions.h; path = XAspect/Core/XACExtensions.h; sourceTree = "<group>"; };
+		7FA26A06B3FE5EAB24BC4ED6834BFFCA /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		845B77A712A76AF6F1668A43344D6DEC /* XAFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAFoundation.h; path = XAspect/Macros/XAFoundation.h; sourceTree = "<group>"; };
+		8513868ACC4FCF7A964658DE5CE3AF3F /* SinaWeiboConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SinaWeiboConnector.framework; path = SDK/ShareSDK/Support/PlatformConnector/SinaWeiboConnector.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F405692ECA4D9E122485E2518B1C162 /* XAspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XAspect-dummy.m"; sourceTree = "<group>"; };
+		A0DA0B9A905FA32D284880734748FC3B /* XAspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XAspect-prefix.pch"; sourceTree = "<group>"; };
+		A29D1DF223F573011DE99E406525C017 /* Pods-TimShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A84EC6306955DA0FC1316A7A4F416ECB /* Pods-TimShareDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimShareDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B238545362E64835D02422EDE0F320CE /* Pods-TimShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E928694E29501C98592C74D3C927AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BEDA0DFB7BABC68BD01A8BA8E66B8979 /* XADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XADebugMacros.h; path = XAspect/Macros/XADebugMacros.h; sourceTree = "<group>"; };
+		BF10737A83BEFF29D8B11F3036D102EC /* TimCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimCore.xcconfig; sourceTree = "<group>"; };
+		C2792F6A2AC693788D382CE01CFF840C /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKUI.framework; path = SDK/ShareSDK/Support/Optional/ShareSDKUI.framework; sourceTree = "<group>"; };
+		C38134C3A21C20FF83F74E987E979045 /* ShareSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDK.bundle; path = SDK/ShareSDK/Support/Required/ShareSDK.bundle; sourceTree = "<group>"; };
+		C474EC2C2C7E97FC243012C4DB6CBD75 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		C6D96BEED17ACD2FE595D830E4279167 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		D0A382818207D3485C3A93054C2E80D7 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDK/ShareSDK/Support/PlatformSDK/WeChatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		D70B04F966A0FE317B056E82DD456AF6 /* XAObjcMetaprogramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAObjcMetaprogramming.h; path = XAspect/Macros/XAObjcMetaprogramming.h; sourceTree = "<group>"; };
+		D84D0F9A18B2842F28FFB13F24ABE385 /* libXAspect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXAspect.a; path = libXAspect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D2C409BB362E5F0004CB7895798DFB /* XAExtObjcMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAExtObjcMetamacros.h; path = XAspect/Macros/XAExtObjcMetamacros.h; sourceTree = "<group>"; };
+		E8CC7E31001ADAC74B4B3E5078AABE82 /* WechatConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WechatConnector.framework; path = SDK/ShareSDK/Support/PlatformConnector/WechatConnector.framework; sourceTree = "<group>"; };
+		E980812C66A3D4497B438A8DC72AFE62 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = SDK/ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
+		EB093B814877DD62490B96C4EB6689F1 /* TimCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimCore-prefix.pch"; sourceTree = "<group>"; };
+		F19868DC4D26672F526A453B529E1759 /* libPods-TimShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TimShareDemo.a"; path = "libPods-TimShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F255F630A703814856D5A930F24EB9 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		FB03532F8B2E01C5230E404438A38996 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKExtension.framework; path = SDK/ShareSDK/Support/Optional/ShareSDKExtension.framework; sourceTree = "<group>"; };
+		FB44D3E1F7005B9A2C76E5CDF1DAA09D /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDK/ShareSDK/Support/PlatformSDK/WeChatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A056C89D82DDEA7D2429631D8F7882C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A46AACDF63533ED5B3352E9028101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3322336EE8B3F03B67E6A3FD52F4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A1E9E8E1A3E04B1079FB776091AB2B /* CoreTelephony.framework in Frameworks */,
+				73AE2CF7D4DBE3BEDDC01F4260230B6E /* Foundation.framework in Frameworks */,
+				B9F9D7205C868477A014E5B19FFA95B6 /* JavaScriptCore.framework in Frameworks */,
+				01737CEDF6A95C8C4B5BBC46B09B4D03 /* SystemConfiguration.framework in Frameworks */,
+				42572B110E097AF50C6EF8A89A679486 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA8ABE42F716F2241B3BD421F4F4C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49459EB017A29A22F6C4C6B5A038F33E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0492A464571FFEB4E526E0FD68F07DEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		05989E4359E8B40EB1110F23667F3EB6 /* Pods-TimShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A84EC6306955DA0FC1316A7A4F416ECB /* Pods-TimShareDemo-acknowledgements.markdown */,
+				6BC76972F7AD76AD03C6E9DB7E019CE8 /* Pods-TimShareDemo-acknowledgements.plist */,
+				194B72727444A4A101D99FB3A1125CF7 /* Pods-TimShareDemo-dummy.m */,
+				4E2759BCB90B5CD88552C6D7C2661FDF /* Pods-TimShareDemo-frameworks.sh */,
+				30260CCF24E81C76B7C12EC38DC86220 /* Pods-TimShareDemo-resources.sh */,
+				B238545362E64835D02422EDE0F320CE /* Pods-TimShareDemo.debug.xcconfig */,
+				A29D1DF223F573011DE99E406525C017 /* Pods-TimShareDemo.release.xcconfig */,
+			);
+			name = "Pods-TimShareDemo";
+			path = "Target Support Files/Pods-TimShareDemo";
+			sourceTree = "<group>";
+		};
+		094D296FC6D20D9430786A0C45AFFF18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A5E425E0A08713D929058F33B9C7B1 /* QQConnector.framework */,
+				1E676A0DCBB072456CDD13B57C5B363C /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A4F0DF6EC40EEE84D3F1A1BA05881AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4F255F630A703814856D5A930F24EB9 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		127E8674346364142F67962C9F9DA17E /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				094D296FC6D20D9430786A0C45AFFF18 /* Frameworks */,
+				6DF6827F7B620B8D7DDCDF77480CBE9C /* Resources */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		13BCA41D64AF200F5FC777AD027E3D8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0746FE39999BC36C8C8F9646391A49D7 /* ShareSDKUI.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1C618051640AB6B5FBB17CDAB1F878DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2792F6A2AC693788D382CE01CFF840C /* ShareSDKUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B00606BFAC3CB4D0AE03EEC17F477433 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		230143FB2FB31D778D8BD4A0CF3FBC61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C38134C3A21C20FF83F74E987E979045 /* ShareSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2BF294C27548E9F99F0C92A6BD280AC9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05989E4359E8B40EB1110F23667F3EB6 /* Pods-TimShareDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C1F0F264227EF8513BAB1230B7B8167 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA0DFB7BABC68BD01A8BA8E66B8979 /* XADebugMacros.h */,
+				E4D2C409BB362E5F0004CB7895798DFB /* XAExtObjcMetamacros.h */,
+				845B77A712A76AF6F1668A43344D6DEC /* XAFoundation.h */,
+				D70B04F966A0FE317B056E82DD456AF6 /* XAObjcMetaprogramming.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		3D55A29C087C16495975BBEE81F5F5B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AF5F3AFB6794FCC137906A598C56BCD /* MOBFoundation.framework */,
+				193F783027624E4051023490924A921E /* MOBFoundationEx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AE29F869BD3C2729D37F96E5BEC65CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D7C145CC01790124D4F1143CCFDEF5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47F2176AF28CC9625F46123D43E383CC /* ShareSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D99D5AE65DE3EFDD3EC8E95773E743B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FA26A06B3FE5EAB24BC4ED6834BFFCA /* libWeiboSDK.a */,
+				8513868ACC4FCF7A964658DE5CE3AF3F /* SinaWeiboConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52944C92CFFF3BE3E529979848D6127F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C17763299ACB2318D288CC34A219DD3 /* libWeChatSDK.a */,
+				E8CC7E31001ADAC74B4B3E5078AABE82 /* WechatConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A10A741AD40955BFC170E6374EA9909 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF3D619FED8BB64A518E1D0AE0A4D3 /* XAspect.xcconfig */,
+				9F405692ECA4D9E122485E2518B1C162 /* XAspect-dummy.m */,
+				A0DA0B9A905FA32D284880734748FC3B /* XAspect-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XAspect";
+			sourceTree = "<group>";
+		};
+		65DCD22E5289AD8DA8B1DC7C7B80D7A4 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				FB44D3E1F7005B9A2C76E5CDF1DAA09D /* WechatAuthSDK.h */,
+				09EE8ED3BFDB58DC8E684B3AF501F157 /* WXApi.h */,
+				D0A382818207D3485C3A93054C2E80D7 /* WXApiObject.h */,
+				52944C92CFFF3BE3E529979848D6127F /* Frameworks */,
+				0492A464571FFEB4E526E0FD68F07DEC /* Resources */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		6DF6827F7B620B8D7DDCDF77480CBE9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		72F4F4F8F98F5B50867BDEF254EAAD10 /* ShareSDK3 */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C145CC01790124D4F1143CCFDEF5A /* Frameworks */,
+				7E925294E255F81D088E8EA55AED5BCC /* ShareSDK */,
+				7E81BEB8C2F069CCF27B13FFCD90ADBD /* ShareSDKExtension */,
+				D3C367FB5D80CDF5F5D21E47BC155D70 /* ShareSDKPlatforms */,
+				F275143646CBAAE9DD0922EF937E6990 /* ShareSDKUI */,
+			);
+			name = ShareSDK3;
+			path = ShareSDK3;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				C599CB33218F4F1CCA9A962363931EC1 /* Pods */,
+				C596AF6DFE5CC0235FC83BAE66B16910 /* Products */,
+				2BF294C27548E9F99F0C92A6BD280AC9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E81BEB8C2F069CCF27B13FFCD90ADBD /* ShareSDKExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FB0DDDCEA43AAFC64B862F45BD92A305 /* Frameworks */,
+				4AE29F869BD3C2729D37F96E5BEC65CF /* Resources */,
+			);
+			name = ShareSDKExtension;
+			sourceTree = "<group>";
+		};
+		7E925294E255F81D088E8EA55AED5BCC /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A2E8F44444315D59707BA312E468C201 /* Frameworks */,
+				230143FB2FB31D778D8BD4A0CF3FBC61 /* Resources */,
+			);
+			name = ShareSDK;
+			sourceTree = "<group>";
+		};
+		82858D86291988B0E4CE375ACAF61EE6 /* MOBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				3D55A29C087C16495975BBEE81F5F5B9 /* Frameworks */,
+			);
+			name = MOBFoundation;
+			path = MOBFoundation;
+			sourceTree = "<group>";
+		};
+		A2E8F44444315D59707BA312E468C201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E980812C66A3D4497B438A8DC72AFE62 /* ShareSDKConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2F16A8FD203AE94A29D7017B7169274 /* TimCore */ = {
+			isa = PBXGroup;
+			children = (
+				C67D472159EBC308AE90FAF50D4BB7B3 /* Support Files */,
+				C1072FEFA879A159436422D58B4F7BDF /* TimCore */,
+				C35A21FEF4F357F269AD5EBF076089EA /* TimProtocol */,
+			);
+			name = TimCore;
+			path = TimCore;
+			sourceTree = "<group>";
+		};
+		B00606BFAC3CB4D0AE03EEC17F477433 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				755270315EE90B27E4525E531F0F8709 /* CoreTelephony.framework */,
+				0860F9471E377C789BE08E1EE83E10A2 /* Foundation.framework */,
+				C474EC2C2C7E97FC243012C4DB6CBD75 /* JavaScriptCore.framework */,
+				B6E928694E29501C98592C74D3C927AB /* SystemConfiguration.framework */,
+				4AD562435F7E2D8843722EF203586F7F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1072FEFA879A159436422D58B4F7BDF /* TimCore */ = {
+			isa = PBXGroup;
+			children = (
+				350D29995730DBFF87699B64BBE75FD5 /* TimCoreAppDelegate.h */,
+				40685780348FA21CF9B65917EA62F364 /* TimCoreAppDelegate.m */,
+				4DCA6032897108A972A6EA6EBAC2AB7B /* TimCoreAppDelegate+CSSearch.h */,
+				276AB7E08B0CD005596E830040BEB5EC /* TimCoreAppDelegate+CSSearch.m */,
+			);
+			name = TimCore;
+			sourceTree = "<group>";
+		};
+		C19955F56D1E6E46A9814791CD49B296 /* XAspect */ = {
+			isa = PBXGroup;
+			children = (
+				2C139B382C6C5FFC37F4EFCB17469907 /* XAspect.h */,
+				F00DEECAFB2B74D2768ECE230BAB9D9C /* Core */,
+				3C1F0F264227EF8513BAB1230B7B8167 /* Macros */,
+				5A10A741AD40955BFC170E6374EA9909 /* Support Files */,
+			);
+			name = XAspect;
+			path = XAspect;
+			sourceTree = "<group>";
+		};
+		C35A21FEF4F357F269AD5EBF076089EA /* TimProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				6FDC398FFBFAFBD7932205C2F9C60E55 /* TimSearchItemForObjectProtocol.h */,
+			);
+			name = TimProtocol;
+			sourceTree = "<group>";
+		};
+		C596AF6DFE5CC0235FC83BAE66B16910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19868DC4D26672F526A453B529E1759 /* libPods-TimShareDemo.a */,
+				23D25DD16EB9AB684E5330C71242196E /* libTimCore.a */,
+				D84D0F9A18B2842F28FFB13F24ABE385 /* libXAspect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C599CB33218F4F1CCA9A962363931EC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82858D86291988B0E4CE375ACAF61EE6 /* MOBFoundation */,
+				72F4F4F8F98F5B50867BDEF254EAAD10 /* ShareSDK3 */,
+				A2F16A8FD203AE94A29D7017B7169274 /* TimCore */,
+				C19955F56D1E6E46A9814791CD49B296 /* XAspect */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C67D472159EBC308AE90FAF50D4BB7B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF10737A83BEFF29D8B11F3036D102EC /* TimCore.xcconfig */,
+				76D270EF6C4C53B82D2D6B9E44BA33B7 /* TimCore-dummy.m */,
+				EB093B814877DD62490B96C4EB6689F1 /* TimCore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TimCore";
+			sourceTree = "<group>";
+		};
+		D3C367FB5D80CDF5F5D21E47BC155D70 /* ShareSDKPlatforms */ = {
+			isa = PBXGroup;
+			children = (
+				127E8674346364142F67962C9F9DA17E /* QQ */,
+				E357F64FBC5213B9166A4EFF2C70B3C3 /* SinaWeibo */,
+				65DCD22E5289AD8DA8B1DC7C7B80D7A4 /* WeChat */,
+			);
+			name = ShareSDKPlatforms;
+			sourceTree = "<group>";
+		};
+		E357F64FBC5213B9166A4EFF2C70B3C3 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				29AFD2972FFCCF2DEAF3A09DB7575EB6 /* WBHttpRequest.h */,
+				C6D96BEED17ACD2FE595D830E4279167 /* WeiboSDK.h */,
+				4D99D5AE65DE3EFDD3EC8E95773E743B /* Frameworks */,
+				0A4F0DF6EC40EEE84D3F1A1BA05881AB /* Resources */,
+			);
+			name = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		F00DEECAFB2B74D2768ECE230BAB9D9C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0E07A606D867E7E60DBBFB84C4B8CA5C /* XACExtensions.c */,
+				7E78838B2638D035FDD12CBA35EC277B /* XACExtensions.h */,
+				4AAB2E3873D9F283E4C02F9A2A451B11 /* XACrystallization.cpp */,
+				1AE8CD94EF44F29E2054681C1E48A352 /* XACrystallization.h */,
+				47F920AD3F79363361568C9303275319 /* XAWeaveHandler.cpp */,
+				00D9B1ADC22897BD6B49428B278C56CF /* XAWeaveHandler.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F275143646CBAAE9DD0922EF937E6990 /* ShareSDKUI */ = {
+			isa = PBXGroup;
+			children = (
+				1C618051640AB6B5FBB17CDAB1F878DF /* Frameworks */,
+				13BCA41D64AF200F5FC777AD027E3D8F /* Resources */,
+			);
+			name = ShareSDKUI;
+			sourceTree = "<group>";
+		};
+		FB0DDDCEA43AAFC64B862F45BD92A305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB03532F8B2E01C5230E404438A38996 /* ShareSDKExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4334933FCB0A229494787D39BD8FF19E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93808634DA066C8AABAD9F8D056284BF /* XACExtensions.h in Headers */,
+				68D8DFBDDDBB73F6A643598C89C15C46 /* XACrystallization.h in Headers */,
+				A282607C940413D6C8E21F938E3799A9 /* XADebugMacros.h in Headers */,
+				CA295B817A49F10A8C2D67F9C79497B8 /* XAExtObjcMetamacros.h in Headers */,
+				CF8243BC2749DDE058A58A3D5F7C1C9B /* XAFoundation.h in Headers */,
+				0377B2B9569867EA681FE62DAA1D89DD /* XAObjcMetaprogramming.h in Headers */,
+				6E1DD7010594C69E0467F16B9B8382E0 /* XAspect.h in Headers */,
+				3010739A78056A417553FEB73F76E660 /* XAWeaveHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABE2BDDE704826693C9FF6E2EEFF5FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856DEFBF545C01EDF2DCAE6B48D9C8A0 /* TimCoreAppDelegate+CSSearch.h in Headers */,
+				ABDCFE75EA28E49462A280D5E3B992E8 /* TimCoreAppDelegate.h in Headers */,
+				E597127671F36DDAB57BD22C610F2264 /* TimSearchItemForObjectProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A2370E61383A657885E85DF186E1520 /* XAspect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FEDE950FC6102B30D4B43C99996050 /* Build configuration list for PBXNativeTarget "XAspect" */;
+			buildPhases = (
+				3A3D99B172A93E0C989ED31E4DEB5936 /* Sources */,
+				0A056C89D82DDEA7D2429631D8F7882C /* Frameworks */,
+				4334933FCB0A229494787D39BD8FF19E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XAspect;
+			productName = XAspect;
+			productReference = D84D0F9A18B2842F28FFB13F24ABE385 /* libXAspect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6010602CC07D078A8D5084BC730EE54A /* Pods-TimShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB79EC12900C3CF49C141875287EA62 /* Build configuration list for PBXNativeTarget "Pods-TimShareDemo" */;
+			buildPhases = (
+				279D8F5D556D214C030C8DBD68142E9D /* Sources */,
+				EEA8ABE42F716F2241B3BD421F4F4C9B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E69D92A21BB16AFDC9740A97B288CCCB /* PBXTargetDependency */,
+				83F8CEBB89C87EE02A911D8A6AD22498 /* PBXTargetDependency */,
+			);
+			name = "Pods-TimShareDemo";
+			productName = "Pods-TimShareDemo";
+			productReference = F19868DC4D26672F526A453B529E1759 /* libPods-TimShareDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		95A35CFE65B365D9DDC0FFA51446D556 /* TimCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D754599EA2E4910F9FF89079BBE90F2 /* Build configuration list for PBXNativeTarget "TimCore" */;
+			buildPhases = (
+				DFA168A6EC7F48B10BC5F1CD2E09867B /* Sources */,
+				CA3322336EE8B3F03B67E6A3FD52F4F0 /* Frameworks */,
+				8ABE2BDDE704826693C9FF6E2EEFF5FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimCore;
+			productName = TimCore;
+			productReference = 23D25DD16EB9AB684E5330C71242196E /* libTimCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C596AF6DFE5CC0235FC83BAE66B16910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6010602CC07D078A8D5084BC730EE54A /* Pods-TimShareDemo */,
+				95A35CFE65B365D9DDC0FFA51446D556 /* TimCore */,
+				3A2370E61383A657885E85DF186E1520 /* XAspect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279D8F5D556D214C030C8DBD68142E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DA474973F52021B41AE23E2682BD06 /* Pods-TimShareDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3D99B172A93E0C989ED31E4DEB5936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F180B8EF6767720DDBD8E1829294A1BB /* XACExtensions.c in Sources */,
+				45CC1F716CAA9DF3E2AC991FDF78CB5E /* XACrystallization.cpp in Sources */,
+				99C441B5215178AF78740D3D4B84D571 /* XAspect-dummy.m in Sources */,
+				965356A989C709FB75B740842386743C /* XAWeaveHandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA168A6EC7F48B10BC5F1CD2E09867B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3848EEC1EB1C3D481C6992E1615C4A9A /* TimCore-dummy.m in Sources */,
+				94B964B75C7DEAB956C1DAB0A1170FBB /* TimCoreAppDelegate+CSSearch.m in Sources */,
+				39B5B44E90AEAC40B5F069895DC15F44 /* TimCoreAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83F8CEBB89C87EE02A911D8A6AD22498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XAspect;
+			target = 3A2370E61383A657885E85DF186E1520 /* XAspect */;
+			targetProxy = F014E944ECD7AD507B90A57065105A2C /* PBXContainerItemProxy */;
+		};
+		E69D92A21BB16AFDC9740A97B288CCCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimCore;
+			target = 95A35CFE65B365D9DDC0FFA51446D556 /* TimCore */;
+			targetProxy = 30DBD3C2093FF99C36E56D2BC777D78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B02BE0313EE53401F1FEEFC5DEFC585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29D1DF223F573011DE99E406525C017 /* Pods-TimShareDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C1FA1185EDB1E0330AFA45B2818E85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAF3D619FED8BB64A518E1D0AE0A4D3 /* XAspect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2384E3F6983C1125D093ADBF6402FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF10737A83BEFF29D8B11F3036D102EC /* TimCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TimCore/TimCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BDEDCE2D97D2CCC5DA4312B3190C474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF10737A83BEFF29D8B11F3036D102EC /* TimCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TimCore/TimCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A5D461639755240905F6AA2BE5CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAF3D619FED8BB64A518E1D0AE0A4D3 /* XAspect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EAC139DFD5512DC652A11412FCFCD9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B238545362E64835D02422EDE0F320CE /* Pods-TimShareDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB79EC12900C3CF49C141875287EA62 /* Build configuration list for PBXNativeTarget "Pods-TimShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC139DFD5512DC652A11412FCFCD9E8 /* Debug */,
+				6B02BE0313EE53401F1FEEFC5DEFC585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FEDE950FC6102B30D4B43C99996050 /* Build configuration list for PBXNativeTarget "XAspect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1FA1185EDB1E0330AFA45B2818E85F /* Debug */,
+				D7A5D461639755240905F6AA2BE5CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D754599EA2E4910F9FF89079BBE90F2 /* Build configuration list for PBXNativeTarget "TimCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2384E3F6983C1125D093ADBF6402FBC /* Debug */,
+				BDEDCE2D97D2CCC5DA4312B3190C474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
